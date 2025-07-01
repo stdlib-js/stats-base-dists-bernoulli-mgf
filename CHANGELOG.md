@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-07-01)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`5b3f1fe`](https://github.com/stdlib-js/stdlib/commit/5b3f1fe23bb75e6e6570f71420af877ca377dd76) - **test:** use approximate equality for native addon tests _(by Philipp Burckhardt)_
 -   [`0a6c344`](https://github.com/stdlib-js/stdlib/commit/0a6c344b6922ed9d12900074f01c88aaf58855f1) - **feat:** add C implementation for `stats/base/dists/bernoulli/mgf` [(#3981)](https://github.com/stdlib-js/stdlib/pull/3981) _(by Neeraj Pathak, stdlib-bot)_
 -   [`975de6a`](https://github.com/stdlib-js/stdlib/commit/975de6ac8cf9349a047a39921ddf3f29a9b0d77e) - **docs:** replace manual `for` loop in examples [(#6280)](https://github.com/stdlib-js/stdlib/pull/6280) _(by Karan Anand)_
 -   [`802775e`](https://github.com/stdlib-js/stdlib/commit/802775ea028fb2a42041611187b6373b49f5f397) - **bench:** refactor random number generation in `stats/base/dists/bernoulli` [(#4775)](https://github.com/stdlib-js/stdlib/pull/4775) _(by Karan Anand, Athan Reines)_
@@ -48,11 +49,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Neeraj Pathak
+-   Philipp Burckhardt
 
 </section>
 
