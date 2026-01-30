@@ -71,6 +71,11 @@ where `0 <= p <= 1` is the success probability.
 To use in Observable,
 
 ```javascript
+mgf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-mgf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-bernoulli-mgf/tags). For example,
+
+```javascript
 mgf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-mgf@v0.3.0-umd/browser.js' )
 ```
 
@@ -83,7 +88,7 @@ var mgf = require( 'path/to/vendor/umd/stats-base-dists-bernoulli-mgf/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-mgf@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-mgf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -164,7 +169,7 @@ var y = mymgf( -0.2 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-mgf@v0.3.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-bernoulli-mgf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
