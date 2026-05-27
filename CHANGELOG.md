@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-27)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`3c1e93d`](https://github.com/stdlib-js/stdlib/commit/3c1e93d70791ae8598c0bd192986066d665a2e9d) - **refactor:** replace `isProbability` with inline range check in `stats/base/dists/bernoulli/mgf` [(#12292)](https://github.com/stdlib-js/stdlib/pull/12292) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
